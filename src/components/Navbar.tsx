@@ -23,9 +23,21 @@ export default function Navbar() {
                 margin: "16px",
                 padding: "16px"
             }}>
-            <li style={{ listStyle: "none", marginRight: "4rem"}}>About</li>
-            <li style={{ listStyle: "none", marginRight: "4rem"}}>Gallery</li>
-            <li style={{ listStyle: "none", marginRight: "4rem"}}>Contact</li>
+            <a href='#1'
+                style={{
+                    textDecoration: "none",
+                    color: "black"
+                }}><li style={{ listStyle: "none", marginRight: "4rem"}}>About</li></a>
+            <a href="#2"
+                style={{
+                    textDecoration: "none",
+                    color: "black"
+                }}><li style={{ listStyle: "none", marginRight: "4rem"}}>Gallery</li></a>
+            <a href="#3"
+                style={{
+                    textDecoration: "none",
+                    color: "black"
+                }}><li style={{ listStyle: "none", marginRight: "4rem"}}>Contact</li></a>
         </div>
     </nav>
   )

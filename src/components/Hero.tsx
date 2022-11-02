@@ -9,10 +9,13 @@ export default function Hero() {
         }}>
         <div className="hero"
             style={{
-                height: "800px",
-                width: "100%"
+                objectFit: "cover"
             }}>
-            <img src="https://i.ibb.co/T10YbkS/hero-image.jpg" alt="Paint it hero!"></img>
+            <img src="https://i.ibb.co/T10YbkS/hero-image.jpg" alt="Paint it hero!"
+                style={{
+                    height: "750px",
+                    width: "100%"
+                }}></img>
         </div>
     </div>
   )
