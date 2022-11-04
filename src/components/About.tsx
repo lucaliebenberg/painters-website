@@ -7,7 +7,8 @@ export default function About() {
             display: "flex",
             flexDirection:"row",
             justifyContent:"space-between",
-            alignItems: "center"
+            alignItems: "center",
+            paddingTop: "4rem"
         }}>
         <div className="about__left" 
             style={{
@@ -35,7 +36,7 @@ export default function About() {
                 textAlign:"left",
                 maxWidth: "34rem"
             }}>
-            <h2>Welcome to Paint it!</h2>
+            <h1>Welcome to Paint it!</h1>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati veritatis sunt asperiores nobis rem officiis possimus culpa rerum delectus quas fuga, quidem dolor, aliquid ut illum. In praesentium tempore possimus?</p>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati veritatis sunt asperiores nobis rem officiis possimus culpa rerum delectus quas fuga, quidem dolor, aliquid ut illum. In praesentium tempore possimus?</p>
             <p>Obcaecati veritatis sunt asperiores nobis rem officiis possimus culpa rerum delectus quas fuga, quidem dolor, aliquid ut illum. In praesentium tempore possimus</p>
